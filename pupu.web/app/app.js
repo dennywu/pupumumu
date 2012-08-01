@@ -4,7 +4,6 @@ Ext.application({
     requires: [
         'Ext.MessageBox'
     ],
-
     views: ['Main'],
 
     icon: {
