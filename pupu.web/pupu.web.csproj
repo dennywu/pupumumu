@@ -1166,6 +1166,14 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\app\controller\" />
+    <Folder Include="app\app\model\" />
+    <Folder Include="app\app\profile\" />
+    <Folder Include="app\app\store\" />
+    <Folder Include="app\resources\images\" />
+    <Folder Include="ViewStart\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="app\.senchasdk" />
     <None Include="app\app.json" />
     <None Include="app\packager.json" />
@@ -1533,14 +1541,6 @@
     <None Include="app\sdk\resources\themes\vendor\compass-recipes\tests\_tests.scss" />
     <None Include="app\sdk\resources\themes\vendor\compass-recipes\VERSION" />
     <None Include="app\sdk\src\temp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\app\controller\" />
-    <Folder Include="app\app\model\" />
-    <Folder Include="app\app\profile\" />
-    <Folder Include="app\app\store\" />
-    <Folder Include="app\resources\images\" />
-    <Folder Include="ViewStart\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
