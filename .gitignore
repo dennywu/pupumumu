@@ -1,6 +1,5 @@
 *.suo
 *.7z
-bin
 obj
 debug
 release
@@ -9,7 +8,6 @@ build
 *.cache
 deploy
 *.rar
-*.txt
 *.pdb
 *.tmp
 .DS_Store
@@ -21,8 +19,3 @@ _ReSharper.*
 *.ReSharper
 ~$*
 *.stackdump
-/dokuku.sales.web/webclient/sales/controllers/home/production.css
-/dokuku.sales.web/webclient/sales/controllers/setupautonumbering/production.css
-/dokuku.sales.web/webclient/sales/controllers/home/production.js
-/dokuku.sales.web/webclient/sales/controllers/setupautonumbering/production.js
-/dokuku.sales.web/webclient/sales/images/jquery-ui/ui-icons_black_256x240.png
