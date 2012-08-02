@@ -1,5 +1,6 @@
 *.suo
 *.7z
+bin
 obj
 debug
 release
